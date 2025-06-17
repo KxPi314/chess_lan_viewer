@@ -4,7 +4,6 @@ import re
 import sys
 
 def main():
-    print("\033[6n")
     lan = ""
     if len(sys.argv) == 1:
         lan = input("input LAN notation: ")
