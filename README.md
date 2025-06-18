@@ -22,14 +22,14 @@ Some example games in this format are included in the repository.
 The project was made to run on both **Linux** and **Windows**.  
 
 ### Terminal version:
-
+![terminal Screenshot](images/terminal_view.png)
 ```bash
 cd terminal_version
 python main.py <path_to_input_file>
 ```
 
 ### GUI version:
-
+![GUI Screenshot](images/gui_view.png)
 ```bash
 cd gui_version
 python main.py <path_to_input_file>
