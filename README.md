@@ -1,38 +1,34 @@
-# CHESS LAN VIEWING PROGRAM
+# Chess LAN Viewer
 
-This is a simple project for visualizing chess games written in LAN (Long Algebraic Notation) format.  
-The project includes both a **GUI version** and a **terminal version** of the viewer.
+<div style="display: flex; gap: 10px; align-items: start;">
+  <img src="gui_view.png" width="45%" alt="GUI View">
+  <img src="terminal_view.png" width="45%" alt="Terminal View">
+</div>
+
+A lightweight Python utility designed for visualizing chess games recorded in Long Algebraic Notation (LAN). I originally created this small program as a debugging and testing tool to assist me while developing my own custom chess engine.
+
+The project includes two distinct interfaces: a fully functional **Graphical User Interface (GUI)** and a lightweight **Command-Line Interface (CLI)**.
 
 ---
 
 ## What is Long Algebraic Notation (LAN)?
 
-**LAN** stands for **Long Algebraic Notation** — a chess notation where each move is written as: <from_column><from_row><to_column><to_row>
+**LAN** is a straightforward chess notation method where each move is explicitly defined by its starting and ending coordinates: `<from_column><from_row><to_column><to_row>`.
 
-For example:
-- `e2e4` – pawn moves from e2 to e4
-- `g1f3` – knight moves from g1 to f3
+**Examples:**
+* `e2e4` – Pawn moves from e2 to e4
+* `g1f3` – Knight moves from g1 to f3
 
-Some example games in this format are included in the repository.
+> **Note:** A few sample games in LAN format are included in the repository for testing purposes.
 
 ---
 
-## Running the Program
+## How to Run
 
-The project was made to run on both **Linux** and **Windows**.  
+The application is cross-platform and fully supports both **Linux** and **Windows**. 
 
-### Terminal version:
-
-```bash
-cd terminal_version
-python main.py <path_to_input_file>
-```
-
-### GUI version:
-
+### 1. GUI Version
+Navigate to the GUI directory and run the script, passing the path to your LAN file as an argument:
 ```bash
 cd gui_version
 python main.py <path_to_input_file>
-```
-You can also run it without providing a file, and enter the notation manually as a string.
-
