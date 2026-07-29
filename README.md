@@ -1,9 +1,11 @@
 # Chess LAN Viewer
 
-<div style="display: flex; gap: 10px; align-items: start;">
-  <img src="gui_view.png" width="45%" alt="GUI View">
-  <img src="terminal_view.png" width="45%" alt="Terminal View">
-</div>
+<table>
+  <tr>
+    <td width="50%"><img src="gui_view.png" alt="GUI View"></td>
+    <td width="50%"><img src="terminal_view.png" alt="Terminal View"></td>
+  </tr>
+</table>
 
 A lightweight Python utility designed for visualizing chess games recorded in Long Algebraic Notation (LAN). I originally created this small program as a debugging and testing tool to assist me while developing my own custom chess engine.
 
